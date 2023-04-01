@@ -1,6 +1,5 @@
 var element = document.getElementById('text')
 
-
 function action() {
    
    let insert = window.prompt('')
