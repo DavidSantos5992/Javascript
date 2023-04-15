@@ -7,6 +7,26 @@
     <title>imc</title>
 </head>
 <body>
-    <form action=""></form>
+    <form onsubmit="return calcular(event)">
+
+        <label for="">Digite seu peso</label>
+        <br>
+        <input autocomplete="off" type="text" id="peso" placeholder="Digite seu peso">
+        <br>
+        <br>
+        
+        <label for="">Digite sua altura</label>
+        
+        <br>
+        <input autocomplete="off" type="text" id="altura" placeholder="Digite sua altura">
+        <br>
+        <br>
+        <input type="submit" value="calcImc">
+
+        <h2 id="resultado"></h2>
+
+    </form>
+
+    <script src="script.js"></script>
 </body>
 </html>
